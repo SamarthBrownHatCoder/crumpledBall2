@@ -36,9 +36,9 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(225);
+  ball.display();
   imageMode(CENTER)
   image(img,600,295,150,150)
-  ball.display();
   ground.display();
   
   drawSprites();
